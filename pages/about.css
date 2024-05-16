@@ -1,0 +1,58 @@
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+main ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+main ul li {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  main h1 {
+      font-size: 2rem;
+  }
+
+  main p {
+      font-size: 1rem;
+  }
+
+  main ul li {
+      font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 258px) {
+  main h1 {
+      font-size: 1.5rem;
+  }
+
+  main p {
+      font-size: 0.9rem;
+  }
+
+  main ul li {
+      font-size: 0.9rem;
+  }
+}
